@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プロフィール | 機嫌よく生きる腸活メソッド</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Hiragino Kaku Gothic Pro', sans-serif; background: #fafaf8; color: #333; }
+
+    header { background: #fff; border-bottom: 1px solid #efefeb; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1em; font-weight: bold; color: #3a3a3a; letter-spacing: 0.06em; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+    .logo span { color: #4caf7d; }
+    nav { display: flex; gap: 28px; }
+    nav a { text-decoration: none; color: #777; font-size: 0.85em; letter-spacing: 0.04em; transition: color 0.2s; }
+    nav a:hover { color: #4caf7d; }
+
+    .container { max-width: 680px; margin: 0 auto; padding: 48px 24px 64px; }
+    .page-title { font-size: 0.75em; letter-spacing: 0.2em; color: #b8b8b0; margin-bottom: 32px; }
+
+    .profile-top { background: #fff; border-radius: 16px; padding: 36px; box-shadow: 0 2px 16px rgba(0,0,0,0.05); margin-bottom: 24px; display: flex; gap: 24px; align-items: center; }
+    .profile-avatar { width: 80px; height: 80px; border-radius: 50%; background: #e8f5ee; display: flex; align-items: center; justify-content: center; font-size: 2em; flex-shrink: 0; }
+    .profile-info h2 { font-size: 1.15em; color: #3a3a3a; margin-bottom: 6px; }
+    .profile-info p { font-size: 0.83em; color: #999; line-height: 1.8; }
+
+    .card { background: #fff; border-radius: 16px; padding: 36px; box-shadow: 0 2px 16px rgba(0,0,0,0.05); margin-bottom: 24px; }
+    .card h3 { font-size: 0.78em; letter-spacing: 0.14em; color: #4caf7d; margin-bottom: 24px; padding-bottom: 10px; border-bottom: 1px solid #e8f5ee; }
+    .card p { font-size: 0.92em; line-height: 2.2; color: #555; margin-bottom: 18px; }
+    .card p:last-child { margin-bottom: 0; }
+
+    .quote { background: #fafafa; border-left: 3px solid #ddd; padding: 18px 24px; border-radius: 0 8px 8px 0; margin: 20px 0; }
+    .quote p { font-size: 0.88em; color: #999; line-height: 2; font-style: italic; margin-bottom: 0; }
+
+    .highlight { background: #f6fff9; border-left: 3px solid #4caf7d; padding: 18px 24px; border-radius: 0 8px 8px 0; margin: 20px 0; }
+    .highlight p { font-size: 0.9em; line-height: 2.1; color: #555; margin-bottom: 0; }
+
+    .timeline { margin: 24px 0; }
+    .timeline-item { display: flex; gap: 16px; margin-bottom: 18px; align-items: flex-start; }
+    .timeline-label { background: #4caf7d; color: #fff; font-size: 0.72em; padding: 3px 10px; border-radius: 20px; white-space: nowrap; margin-top: 4px; flex-shrink: 0; }
+    .timeline-text { font-size: 0.88em; line-height: 1.9; color: #555; }
+
+    .message p { font-size: 0.92em; line-height: 2.2; color: #555; margin-bottom: 18px; }
+    .message .sign { margin-top: 28px; font-size: 0.9em; color: #4caf7d; }
+
+    footer { text-align: center; padding: 36px 20px; color: #c8c8c0; font-size: 0.72em; letter-spacing: 0.06em; border-top: 1px solid #efefeb; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="index.html">🌿 <span>機嫌よく生きる腸活メソッド</span></a>
+    <nav>
+      <a href="#">レシピ</a>
+      <a href="profile.html">プロフィール</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <p class="page-title">PROFILE</p>
+
+    <div class="profile-top">
+      <div class="profile-avatar">🌿</div>
+      <div class="profile-info">
+        <h2>さき</h2>
+        <p>看護師7年<br>腸活で人生が変わった人<br>機嫌よく生きることが目標</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>BEFORE — 腸活を始める前の私</h3>
+
+      <p>職場で、ふと気づくと空気が重くなっていることがありました。原因は私でした。理由もなくイライラして、自分でも気づかないうちに周りに当たってしまっていた。</p>
+
+      <p>家に帰ると、コンビニで買い込んだお菓子やパンを夜中に食べ続ける。「もうやめよう」と思いながら、手が止まらない。布団に入っても眠れない。朝起きると体は重だるくて、肌はカサカサ。お通じは1週間に1回出るかどうか。</p>
+
+      <div class="quote">
+        <p>「なんでこんなに自分をコントロールできないんだろう」<br>
+        「意志が弱いだけなのかな」<br>
+        毎日そう思っていました。</p>
+      </div>
+
+      <p>今ならわかります。意志の問題じゃなかった。全部、腸が弱っていたサインだったんです。</p>
+    </div>
+
+    <div class="card">
+      <h3>TURNING POINT — 腸活との出会い</h3>
+
+      <p>知り合いに「腸活してみたら？」と言われたとき、正直ピンとこなかった。「食事変えたくらいで、私のこれが変わるの？」って。</p>
+
+      <p>それでも、藁にもすがる思いで始めてみました。</p>
+
+      <p>最初はしんどかった。でも、「体のために食べる」ということを意識し続けるうちに、気づいたら食べ方そのものが変わっていました。ゆっくり食べるようになって、自然と体にいいものを選ぶようになって。</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-label">2〜3週間後</span>
+          <span class="timeline-text">お通じが改善。体がじわじわ軽くなってきた。</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-label">1ヶ月後</span>
+          <span class="timeline-text">むくみが取れて体重が落ちた。夜、眠れるようになった。朝が変わった。</span>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-label">続けるうちに</span>
+          <span class="timeline-text">あんなにひどかったネガティブ思考が、いつの間にかなくなっていた。毎日が楽しくなった。</span>
+        </div>
+      </div>
+
+      <div class="highlight">
+        <p>一番大きな変化は、<strong>メンタルが安定したこと</strong>でした。あんなにイライラしていた私が、毎日機嫌よく過ごせるようになっていた。人に感謝できるようになって、たまに食べるご馳走がもっと楽しめるようになりました。食事を変えただけで、生き方まで変わった感覚です。</p>
+      </div>
+    </div>
+
+    <div class="card message">
+      <h3>MESSAGE — このブログを読んでいるあなたへ</h3>
+
+      <p>イライラが止まらない、暴食してしまう、眠れない、体が重い。そんな毎日を「自分がダメだから」と思っていませんか。</p>
+
+      <p>違います。腸が弱っているだけかもしれない。</p>
+
+      <p>腸は「第二の脳」と呼ばれるくらい、メンタルにも深く影響する臓器です。食事を変えることで、体だけじゃなく、気持ちも、毎日の機嫌も変わります。私が身をもって経験してきたことを、看護師としての知識と合わせてお伝えしていきます。</p>
+
+      <p>ダイエットしたい人、腸活って聞くけど何をすればいいかわからない人、メンタルが不安定になりやすい人。全員に読んでほしいです。</p>
+
+      <p>体も心も、自信を持てる自分になれる方法がある。一緒に見つけていきましょう。</p>
+
+      <p class="sign">🌿 一緒に、機嫌よく生きましょう。</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 機嫌よく生きる腸活メソッド</p>
+  </footer>
+
+</body>
+</html>
