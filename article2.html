@@ -8,11 +8,10 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Hiragino Kaku Gothic Pro', sans-serif; background: #ffffff; color: #333; }
-    header { background: #fff; padding: 25px 20px; text-align: center; border-bottom: 2px solid #4caf7d; }
-    header h1 { font-size: 1.5em; color: #4caf7d; letter-spacing: 0.05em; font-weight: bold; }
-    header p { font-size: 0.85em; color: #aaa; margin-top: 6px; }
-    nav { text-align: center; padding: 15px; background: #fff; border-bottom: 1px solid #eee; }
-    nav a { margin: 0 15px; text-decoration: none; color: #4caf7d; font-size: 0.9em; font-weight: bold; }
+    header { background: #fff; border-bottom: 1px solid #efefeb; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1em; font-weight: bold; color: #3a3a3a; letter-spacing: 0.06em; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+    .logo span { color: #4caf7d; }
+    nav a { text-decoration: none; color: #777; font-size: 0.85em; }
     .container { max-width: 700px; margin: 40px auto; padding: 0 20px; }
     .article-header { margin-bottom: 30px; }
     .tag { display: inline-block; background: #4caf7d; color: #fff; font-size: 0.75em; padding: 3px 12px; border-radius: 20px; margin-bottom: 15px; }
@@ -43,12 +42,9 @@
 </head>
 <body>
   <header>
-    <h1>🌿 機嫌よく生きる腸活メソッド</h1>
-    <p>腸活でもう一度体を整え直す看護師さきの記録</p>
+    <a class="logo" href="index.html">🌿 <span>機嫌よく生きる腸活メソッド</span></a>
+    <nav><a href="profile.html">プロフィール</a></nav>
   </header>
-  <nav>
-    <a href="index.html">ホーム</a>
-  </nav>
   <div class="container">
     <div class="article-header">
       <span class="tag tag-recipe">腸活レシピ</span>
@@ -125,11 +121,11 @@
         <p>✅ <strong>朝に食べる</strong><br>腸は朝に一番活発に動きます。起き抜けにこれを食べると腸が目覚めます。</p>
       </div>
 
-      <h3>私が実際に食べてみた感想</h3>
-      <p>腸活してた頃、これを毎朝食べてました。</p>
-      <p>最初は「ご飯と納豆とキムチだけで満足できるの…？」と半信半疑だったけど、意外と腹持ちがよくていい感じ。</p>
-      <p>味に飽きてきたらシラスを加えたり、大葉や梅を添えたりすると気分転換になります。アレンジが効くので毎日続けやすかったです。</p>
-      <p>難しいことは何もないので、まず1週間続けてみてください。</p>
+      <h3>実際に食べ続けてわかったこと</h3>
+      <p>腸活していた頃、これを週4で食べていました。「ご飯と納豆とキムチだけで本当に満足できる？」と最初は半信半疑でした。</p>
+      <p>でも続けるうちに、朝の体の感覚が変わってきた。前は朝ごはんを食べても昼前にはぐったりしていたのに、食べた後に体がちゃんと動き出す感じがある。夕方まで変な空腹感が来なくなった。</p>
+      <p>2週間ほどで朝のお通じが整い始め、1か月後には朝の目覚めが明らかに変わっていました。「このレシピ一食でそこまで変わるの？」と自分でも驚きました。腸活の効果を初めて実感したのが、この朝ごはんでした。</p>
+      <p>飽きてきたらシラスや大葉、梅を加えるとアレンジできます。まず1週間、試してみてください。</p>
 
       <h3>まとめ</h3>
       <div class="highlight">
