@@ -2,8 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://chokatu-gohan.com/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chokatu-gohan.com/recipe.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://chokatu-gohan.com/article1.html</loc>
@@ -103,6 +108,11 @@
   <url>
     <loc>https://chokatu-gohan.com/article20.html</loc>
     <lastmod>2026-05-23</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chokatu-gohan.com/article21.html</loc>
+    <lastmod>2026-06-12</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
