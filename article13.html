@@ -12,6 +12,7 @@
     header { background: #fff; border-bottom: 1px solid #efefeb; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
     .logo { font-size: 1em; font-weight: bold; color: #3a3a3a; letter-spacing: 0.06em; text-decoration: none; display: flex; align-items: center; gap: 8px; }
     .logo span { color: #4caf7d; }
+    nav { display: flex; gap: 28px; }
     nav a { text-decoration: none; color: #777; font-size: 0.85em; }
     .container { max-width: 700px; margin: 40px auto; padding: 0 20px; }
     .article-header { margin-bottom: 30px; }
@@ -29,6 +30,13 @@
     .caution p:last-child { margin-bottom: 0; }
     .back-btn { display: inline-block; margin: 30px 0; padding: 10px 25px; background: #4caf7d; color: #fff; border-radius: 20px; text-decoration: none; font-size: 0.9em; }
     footer { text-align: center; padding: 30px; color: #ccc; font-size: 0.8em; border-top: 1px solid #eee; margin-top: 40px; }
+  
+    @media (max-width: 600px) {
+      header { padding: 0 16px; }
+      nav { gap: 14px; }
+      nav a { font-size: 0.78em; }
+      .logo { font-size: 0.88em; }
+    }
   </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3E9QB5QM7K"></script>
@@ -76,7 +84,12 @@
 <body>
   <header>
     <a class="logo" href="index.html">🌿 <span>機嫌よく生きる腸活メソッド</span></a>
-    <nav><a href="profile.html">プロフィール</a></nav>
+    <nav>
+      <a href="cycle.html">周期と腸</a>
+      <a href="worklife.html">働き方と腸</a>
+      <a href="recipe.html">レシピ</a>
+      <a href="profile.html">プロフィール</a>
+    </nav>
   </header>
 
   <div class="container">

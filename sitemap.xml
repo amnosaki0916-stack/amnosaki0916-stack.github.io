@@ -7,8 +7,8 @@
   </url>
   <url>
     <loc>https://chokatu-gohan.com/recipe.html</loc>
-    <lastmod>2026-08-15</lastmod>
-    <priority>0.7</priority>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://chokatu-gohan.com/about.html</loc>
@@ -154,5 +154,20 @@
     <loc>https://chokatu-gohan.com/article27.html</loc>
     <lastmod>2026-09-07</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chokatu-gohan.com/cycle.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chokatu-gohan.com/worklife.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chokatu-gohan.com/archive.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>
